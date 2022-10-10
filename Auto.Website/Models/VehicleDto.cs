@@ -15,7 +15,7 @@ namespace Auto.Website.Models {
 		[HiddenInput(DisplayValue = false)]
 		public string ModelCode { get; set; }
 
-		private string registration;
+		private string _registration;
 
 		private static string NormalizeRegistration(string reg) {
 			return reg == null ? reg : Regex.Replace(reg.ToUpperInvariant(), "[^A-Z0-9]", "");
@@ -24,8 +24,8 @@ namespace Auto.Website.Models {
 		[Required]
 		[DisplayName("Registration Plate")]
 		public string Registration {
-			get => NormalizeRegistration(registration);
-			set => registration = value;
+			get => NormalizeRegistration(_registration);
+			set => _registration = value;
 		}
 
 		[Required]

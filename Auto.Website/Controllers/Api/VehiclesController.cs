@@ -122,5 +122,10 @@ namespace Auto.Website.Controllers.Api {
 			db.DeleteVehicle(vehicle);
 			return NoContent();
 		}
+		
+		public static string ParseVehicleId(dynamic href) {
+			var tokens = ((string)href).Split("/");
+			return tokens.Last();
+		}
 	}
 }
