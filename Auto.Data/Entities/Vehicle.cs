@@ -9,5 +9,6 @@ namespace Auto.Data.Entities {
 
 		[JsonIgnore]
 		public virtual Model VehicleModel { get; set; }
+		public virtual Owner Owner { get; set; }
     }
 }

@@ -21,7 +21,7 @@ namespace Auto.Website {
         public void ConfigureServices(IServiceCollection services) {
             services.AddRouting(options => options.LowercaseUrls = true);
             services.AddControllersWithViews().AddNewtonsoftJson();
-            services.AddSingleton<IAutoDatabase, AutoCsvFileDatabase>();
+            services.AddSingleton<IAutoDatabase, AutoCsvFileDatabase>(); //
 
             services.AddSwaggerGen(
                 config => {

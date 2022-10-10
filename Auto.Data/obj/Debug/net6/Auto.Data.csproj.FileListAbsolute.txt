@@ -15,3 +15,4 @@ E:\DOCUMENTS\СО_программирование\Auto\Auto.Data\obj\Debug\net6
 E:\DOCUMENTS\СО_программирование\Auto\Auto.Data\obj\Debug\net6\Auto.Data.pdb
 E:\DOCUMENTS\СО_программирование\Auto\Auto.Data\obj\Debug\net6\Auto.Data.genruntimeconfig.cache
 E:\DOCUMENTS\СО_программирование\Auto\Auto.Data\obj\Debug\net6\ref\Auto.Data.dll
+E:\DOCUMENTS\СО_программирование\Auto\Auto.Data\bin\Debug\net6\csv-data\owners.csv

@@ -73,3 +73,4 @@ E:\DOCUMENTS\СО_программирование\Auto\Auto.Website\obj\Debug\n
 E:\DOCUMENTS\СО_программирование\Auto\Auto.Website\obj\Debug\net6\Auto.Website.pdb
 E:\DOCUMENTS\СО_программирование\Auto\Auto.Website\obj\Debug\net6\Auto.Website.genruntimeconfig.cache
 E:\DOCUMENTS\СО_программирование\Auto\Auto.Website\obj\Debug\net6\ref\Auto.Website.dll
+E:\DOCUMENTS\СО_программирование\Auto\Auto.Website\bin\Debug\net6\csv-data\owners.csv

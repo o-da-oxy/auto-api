@@ -14,6 +14,7 @@ namespace Auto.Data {
         private readonly Dictionary<string, Manufacturer> manufacturers = new Dictionary<string, Manufacturer>(collation);
         private readonly Dictionary<string, Model> models = new Dictionary<string, Model>(collation);
         private readonly Dictionary<string, Vehicle> vehicles = new Dictionary<string, Vehicle>(collation);
+        private readonly Dictionary<string, Owner> owners = new Dictionary<string, Owner>(collation);
         private readonly ILogger<AutoCsvFileDatabase> logger;
 
         public AutoCsvFileDatabase(ILogger<AutoCsvFileDatabase> logger) {
@@ -21,6 +22,7 @@ namespace Auto.Data {
             ReadManufacturersFromCsvFile("manufacturers.csv");
             ReadModelsFromCsvFile("models.csv");
             ReadVehiclesFromCsvFile("vehicles.csv");
+            ReadOwnersFromCsvFile("owners.csv");
             ResolveReferences();
         }
 
@@ -66,7 +68,7 @@ namespace Auto.Data {
                     ManufacturerCode = tokens[1],
                     Name = tokens[2]
                 };
-                models.Add(model.Code, model);
+                models.Add(model.Code, model); //dictionary.Add(key, value)
             }
             logger.LogInformation($"Loaded {models.Count} models from {filePath}");
         }
@@ -84,15 +86,38 @@ namespace Auto.Data {
             logger.LogInformation($"Loaded {manufacturers.Count} manufacturers from {filePath}");
         }
 
+        private void ReadOwnersFromCsvFile(string filename)
+        {
+            var filePath = ResolveCsvFilePath(filename);
+            //Открывает txt файл, считывает все строки в массив и закрывает
+            foreach (var line in File.ReadAllLines(filePath))
+            {
+                var tokens = line.Split(",");
+                var owner = new Owner
+                {
+                    FirstName = tokens[0],
+                    LastName = tokens[1],
+                    PhoneNumber = tokens[2],
+                    Registration = tokens[3]
+                };
+                //dictionary[key] = value (for GetValueOrDefault() in FindOwner())
+                owners[owner.Registration] = owner;
+            }
+            logger.LogInformation($"Loaded {owners.Count} models from {filePath}");
+        }
+
         public int CountVehicles() => vehicles.Count;
+        public int CountOwners() => owners.Count;
 
         public IEnumerable<Vehicle> ListVehicles() => vehicles.Values;
 
         public IEnumerable<Manufacturer> ListManufacturers() => manufacturers.Values;
 
         public IEnumerable<Model> ListModels() => models.Values;
+        public IEnumerable<Owner> ListOwners() => owners.Values;
 
         public Vehicle FindVehicle(string registration) => vehicles.GetValueOrDefault(registration);
+        public Owner FindOwner(string registration) => owners.GetValueOrDefault(registration);
 
         public Model FindModel(string code) => models.GetValueOrDefault(code);
 
@@ -112,6 +137,30 @@ namespace Auto.Data {
             var model = FindModel(vehicle.ModelCode);
             model.Vehicles.Remove(vehicle);
             vehicles.Remove(vehicle.Registration);
+        }
+
+        public void CreateOwner(Owner owner)
+        {
+            //связь по номеру регистрации
+            owner.Registration = owner.OwnersVehicle.Registration;
+            //добавить владельца в авто
+            owner.OwnersVehicle.Owner = owner;
+            UpdateOwner(owner);
+        }
+
+        public void UpdateOwner(Owner owner)
+        {
+            owners[owner.Registration] = owner;
+        }
+
+        public void DeleteOwner(Owner owner)
+        {
+            //достать авто из владельца
+            var vehicle = FindVehicle(owner.Registration); //достает сущность по ключу
+            //удалить поле владельца из этого авто
+            vehicle.Owner = null;
+            //удалить владельца
+            owners.Remove(owner.Registration);
         }
     }
 }
