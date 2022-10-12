@@ -7,7 +7,6 @@ public class Owner
     public string LastName { get; set; }
     public string PhoneNumber { get; set; }
     public string Registration { get; set; }
-    
-    [JsonIgnore]
+
     public virtual Vehicle OwnersVehicle { get; set; }
 }

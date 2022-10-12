@@ -63,7 +63,7 @@ public class OwnersController : ControllerBase
         var json = owner.ToDynamic();
         json._links = new {
             self = new { href = $"/api/owners/{id}" },
-            ownersVehicle = new { href = $"/api/owners/{owner.OwnersVehicle}" }
+            ownersVehicle = new { href = $"/api/owners/{owner.Registration}" }
         };
         json._actions = new {
             update = new {
@@ -87,7 +87,6 @@ public class OwnersController : ControllerBase
             FirstName = dto.FirstName,
             LastName = dto.LastName,
             PhoneNumber = dto.PhoneNumber,
-            Registration = dto.Registration,
             OwnersVehicle = ownersVehicle
         };
         db.CreateOwner(owner);
@@ -104,9 +103,8 @@ public class OwnersController : ControllerBase
         var owner = new Owner {
             FirstName = dto.FirstName,
             LastName = dto.LastName,
-            PhoneNumber = dto.PhoneNumber,
-            Registration = dto.Registration,
-            OwnersVehicle = ownersVehicle
+            PhoneNumber = id,
+            Registration = ownersVehicle.Registration
         };
         db.UpdateOwner(owner);
         return Get(id);

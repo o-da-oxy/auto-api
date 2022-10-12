@@ -36,6 +36,13 @@ namespace Auto.Data {
                 model.Vehicles = vehicles.Values.Where(v => v.ModelCode == model.Code).ToList();
                 foreach (var vehicle in model.Vehicles) vehicle.VehicleModel = model;
             }
+            
+            //
+            foreach (var owner in owners.Values)
+            {
+                owner.OwnersVehicle = vehicles.Values.FirstOrDefault(v => v.Registration == owner.Registration);
+                if (owner.OwnersVehicle != null) owner.OwnersVehicle.Owner = owner;
+            }
         }
 
         private string ResolveCsvFilePath(string filename) {
@@ -101,9 +108,9 @@ namespace Auto.Data {
                     Registration = tokens[3]
                 };
                 //dictionary[key] = value (for GetValueOrDefault() in FindOwner())
-                owners[owner.Registration] = owner;
+                owners[owner.PhoneNumber] = owner;
             }
-            logger.LogInformation($"Loaded {owners.Count} models from {filePath}");
+            logger.LogInformation($"Loaded {owners.Count} owners from {filePath}");
         }
 
         public int CountVehicles() => vehicles.Count;
@@ -117,7 +124,7 @@ namespace Auto.Data {
         public IEnumerable<Owner> ListOwners() => owners.Values;
 
         public Vehicle FindVehicle(string registration) => vehicles.GetValueOrDefault(registration);
-        public Owner FindOwner(string registration) => owners.GetValueOrDefault(registration);
+        public Owner FindOwner(string phoneNumber) => owners.GetValueOrDefault(phoneNumber);
 
         public Model FindModel(string code) => models.GetValueOrDefault(code);
 
@@ -150,7 +157,7 @@ namespace Auto.Data {
 
         public void UpdateOwner(Owner owner)
         {
-            owners[owner.Registration] = owner;
+            owners[owner.PhoneNumber] = owner;
         }
 
         public void DeleteOwner(Owner owner)
@@ -160,7 +167,7 @@ namespace Auto.Data {
             //удалить поле владельца из этого авто
             vehicle.Owner = null;
             //удалить владельца
-            owners.Remove(owner.Registration);
+            owners.Remove(owner.PhoneNumber);
         }
     }
 }

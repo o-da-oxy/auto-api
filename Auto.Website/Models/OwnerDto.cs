@@ -5,10 +5,16 @@ namespace Auto.Website.Models;
 
 public class OwnerDto
 {
+    [Required]
+    [DisplayName("First Name")]
     public string FirstName { get; set; }
 
+    [Required]
+    [DisplayName("Last Name")]
     public string LastName { get; set; }
-    
+
+    [Required]
+    [DisplayName("Phone Number")]
     public string PhoneNumber { get; set; }
 
     private string _registration;

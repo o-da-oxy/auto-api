@@ -31,10 +31,8 @@ namespace Auto.Website.Controllers.Api {
 
 		// GET: api/vehicles
 		[HttpGet]
-		[Produces("application/hal+json")] //для ответа с правильным заголовком
+		[Produces("application/hal+json")]
 		public IActionResult Get(int index = 0, int count = 10) {
-			//skip - пропускает index кол-во элементов с начала и возвр остальные
-			//take - возвр count кол-во элементов с начала
 			var items = db.ListVehicles().Skip(index).Take(count);
 			var total = db.CountVehicles();
 			var _links = Paginate("/api/vehicles", index, count, total);
@@ -63,10 +61,22 @@ namespace Auto.Website.Controllers.Api {
 			var vehicle = db.FindVehicle(id);
 			if (vehicle == default) return NotFound();
 			var json = vehicle.ToDynamic();
-			json._links = new {
-				self = new { href = $"/api/vehicles/{id}" },
-				vehicleModel = new { href = $"/api/models/{vehicle.ModelCode}" }
-			};
+			if (vehicle.Owner == null)
+			{
+				json._links = new {
+					self = new { href = $"/api/vehicles/{id}" },
+					vehicleModel = new { href = $"/api/models/{vehicle.ModelCode}" }
+				};
+			}
+			else
+			{
+				json._links = new
+				{
+					self = new { href = $"/api/vehicles/{id}" },
+					vehicleModel = new { href = $"/api/models/{vehicle.ModelCode}" },
+					owner = new { href = $"/api/owners/{vehicle.Owner.Registration}" }
+				};
+			}
 			json._actions = new {
 				update = new {
 					method = "PUT",
@@ -95,8 +105,6 @@ namespace Auto.Website.Controllers.Api {
 			
 			return Ok(dto);
 		}
-
-		
 
 		// PUT api/vehicles/ABC123
 		[HttpPut("{id}")]
