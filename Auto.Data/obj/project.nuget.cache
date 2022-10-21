@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0HtNQyPmXmBZhaaAULBGk6hKL+NiJ4fYipShzzp29Va5VrUW7zGe9sn0uv6/4gIBJR++p2ogtR2Nftr/vV+pbw==",
+  "dgSpecHash": "tmVwTX1wD16relPHnahWlJJOjZNH8sz1ewGldZ7z7LEKqMyGda554LEXUq//iYPVh74tCxWiod3qVE7iZ7o4Mg==",
   "success": true,
-  "projectFilePath": "E:\\DOCUMENTS\\СО_программирование\\Auto\\Auto.Data\\Auto.Data.csproj",
+  "projectFilePath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demsk\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\demsk\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
