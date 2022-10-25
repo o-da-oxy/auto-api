@@ -122,17 +122,21 @@
               "target": "Package",
               "version": "[7.1.1, )"
             },
-            "GraphQL.Server.Transports.AspNetCore.SystemTextJson": {
-              "target": "Package",
-              "version": "[5.2.2, )"
-            },
-            "GraphQL.Server.Ui.Altair": {
+            "GraphQL.NewtonsoftJson": {
               "target": "Package",
               "version": "[7.1.1, )"
             },
-            "GraphQL.SystemTextJson": {
+            "GraphQL.Server.Transports.AspNetCore": {
               "target": "Package",
               "version": "[7.1.1, )"
+            },
+            "GraphQL.Server.Ui.GraphiQL": {
+              "target": "Package",
+              "version": "[7.1.1, )"
+            },
+            "GraphiQL": {
+              "target": "Package",
+              "version": "[2.0.0, )"
             },
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",

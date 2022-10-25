@@ -89,15 +89,9 @@ E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Auto.Website.xml
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Castle.Core.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQLParser.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.DataLoader.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.MicrosoftDI.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.NewtonsoftJson.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.Server.Core.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.Server.Transports.AspNetCore.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.Server.Transports.AspNetCore.SystemTextJson.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.Server.Transports.Subscriptions.Abstractions.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.Server.Ui.Altair.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.SystemReactive.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.SystemTextJson.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Microsoft.AspNetCore.JsonPatch.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
@@ -123,8 +117,6 @@ E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Swashbuckle.AspNetCore.Sw
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Configuration.ConfigurationManager.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Drawing.Common.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.IdentityModel.Tokens.Jwt.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Reactive.Core.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Reactive.Linq.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Runtime.Caching.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Security.Cryptography.ProtectedData.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Security.Permissions.dll
@@ -146,9 +138,7 @@ E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\runtimes\win\lib\netstand
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\runtimes\win\lib\netcoreapp3.0\System.Windows.Extensions.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Auto.Data.dll
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Reactive.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Auto.Data.pdb
-E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Reactive.xml
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\Auto.Website.csproj.AssemblyReference.cache
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\Auto.Website.GeneratedMSBuildEditorConfig.editorconfig
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\Auto.Website.AssemblyInfoInputs.cache
@@ -166,3 +156,5 @@ E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\Auto.Website.xml
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\Auto.Website.pdb
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\Auto.Website.genruntimeconfig.cache
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\obj\Debug\net6\ref\Auto.Website.dll
+E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphiQL.dll
+E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\GraphQL.Server.Ui.GraphiQL.dll

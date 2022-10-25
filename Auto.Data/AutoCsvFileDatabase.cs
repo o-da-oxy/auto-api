@@ -124,7 +124,7 @@ namespace Auto.Data {
         public IEnumerable<Owner> ListOwners() => owners.Values;
 
         public Vehicle FindVehicle(string registration) => vehicles.GetValueOrDefault(registration);
-        public Owner FindOwner(string phoneNumber) => owners.GetValueOrDefault(phoneNumber);
+        public Owner FindOwner(string registration) => owners.GetValueOrDefault(registration);
 
         public Model FindModel(string code) => models.GetValueOrDefault(code);
 
@@ -157,7 +157,7 @@ namespace Auto.Data {
 
         public void UpdateOwner(Owner owner)
         {
-            owners[owner.PhoneNumber] = owner;
+            owners[owner.Registration] = owner;
         }
 
         public void DeleteOwner(Owner owner)
@@ -167,7 +167,7 @@ namespace Auto.Data {
             //удалить поле владельца из этого авто
             vehicle.Owner = null;
             //удалить владельца
-            owners.Remove(owner.PhoneNumber);
+            owners.Remove(owner.Registration);
         }
     }
 }

@@ -7,6 +7,9 @@ using Microsoft.Extensions.Hosting;
 using System;
 using System.IO;
 using System.Reflection;
+using Auto.Website.GraphQL.Schemas;
+using GraphQL;
+using GraphQL.Types;
 using Microsoft.OpenApi.Models;
 
 namespace Auto.Website {
@@ -32,6 +35,12 @@ namespace Auto.Website {
                     var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
                     config.IncludeXmlComments(xmlPath);
                 });
+            
+            services.AddGraphQL(builder => builder
+                    .AddNewtonsoftJson()                // Генератор json
+                    .AddAutoSchema<AutoSchema>()        // Добавление middleware для обработки AutoSchema
+                    .AddSchema<AutoSchema>()            // Добавление AutoSchema
+            );
         }
 
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env) {
@@ -48,6 +57,9 @@ namespace Auto.Website {
 
             app.UseSwagger();
             app.UseSwaggerUI();
+            
+            app.UseGraphQL<AutoSchema>();
+            app.UseGraphQLGraphiQL("/graphiql");
 
             app.UseEndpoints(endpoints => {
                 endpoints.MapControllerRoute(
