@@ -1,10 +1,13 @@
-﻿using System.Dynamic;
+﻿using System;
+using System.Dynamic;
 using System.Linq;
 using System.Threading.Tasks;
 using Auto.Data;
 using Auto.Data.Entities;
+using Auto.Messages;
 using Auto.Website.Controllers.Api;
 using Auto.Website.Models;
+using EasyNetQ;
 using Microsoft.AspNetCore.Mvc;
 
 [Route("api/[controller]")]
@@ -12,9 +15,11 @@ using Microsoft.AspNetCore.Mvc;
 public class OwnersController : ControllerBase
 {
     private readonly IAutoDatabase db;
+    private readonly IBus bus;
 
-    public OwnersController(IAutoDatabase db) {
+    public OwnersController(IAutoDatabase db, IBus bus) {
         this.db = db;
+        this.bus = bus;
     }
     
     private dynamic Paginate(string url, int index, int count, int total) {
@@ -90,6 +95,7 @@ public class OwnersController : ControllerBase
             OwnersVehicle = ownersVehicle
         };
         db.CreateOwner(owner);
+        PublishNewOwnerMessage(owner);
 			
         return Ok(dto);
     }
@@ -117,5 +123,15 @@ public class OwnersController : ControllerBase
         if (owner == default) return NotFound();
         db.DeleteOwner(owner);
         return NoContent();
+    }
+    
+    private void PublishNewOwnerMessage(Owner owner) {
+        var message = new NewOwnerMessage() {
+            FirstName = owner.FirstName,
+            LastName = owner.LastName,
+            PhoneNumber = owner.PhoneNumber,
+            TimeNow = DateTime.UtcNow
+        };
+        bus.PubSub.Publish(message);
     }
 }

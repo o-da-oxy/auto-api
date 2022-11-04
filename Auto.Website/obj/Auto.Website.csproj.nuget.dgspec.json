@@ -38,6 +38,14 @@
         "net6.0": {
           "targetAlias": "net6",
           "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -52,9 +60,103 @@
               "target": "Package",
               "version": "[5.0.6, )"
             },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
             "Microsoft.Extensions.Logging.Console": {
               "target": "Package",
               "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj",
+        "projectName": "Auto.Messages",
+        "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj",
+        "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
+        "outputPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
             }
           },
           "imports": [
@@ -100,6 +202,9 @@
             "projectReferences": {
               "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj": {
                 "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj"
+              },
+              "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj": {
+                "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj"
               }
             }
           }
@@ -114,6 +219,14 @@
         "net6.0": {
           "targetAlias": "net6",
           "dependencies": {
+            "EasyNetQ": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
+            "EasyNetQ.Serialization.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.0-alpha6, )"
+            },
             "GraphQL": {
               "target": "Package",
               "version": "[7.1.1, )"
@@ -141,6 +254,22 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.EnvironmentVariables": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.FileExtensions": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0-rc.2.22472.3, )"
             },
             "Microsoft.Extensions.Logging": {
               "target": "Package",
