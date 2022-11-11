@@ -1,0 +1,23 @@
+syntax = "proto3";
+
+option csharp_namespace = "Auto.OwnerGrpcService";
+
+package owner;
+
+// The owner service definition.
+service OwnerService {
+  // Sends an owner
+  rpc GetOwner (OwnerRequest) returns (OwnerReply);
+}
+
+// The request message containing the owner's registration.
+message OwnerRequest {
+  string registration = 1;
+}
+
+// The response message containing the owner info.
+message OwnerReply {
+  string firstName = 1;
+  string lastName = 2;
+  string phoneNumber = 3;
+}

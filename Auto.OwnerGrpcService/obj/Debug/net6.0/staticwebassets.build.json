@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "h8GB0XdjFFFHoBQAc5LgrV7zyhMT1Y0QyXoaERGui94=",
+  "Source": "Auto.OwnerGrpcService",
+  "BasePath": "_content/Auto.OwnerGrpcService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

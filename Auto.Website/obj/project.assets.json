@@ -9043,11 +9043,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Website\\Auto.Website.csproj",
+      "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.Website\\Auto.Website.csproj",
       "projectName": "Auto.Website",
-      "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Website\\Auto.Website.csproj",
+      "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Website\\Auto.Website.csproj",
       "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-      "outputPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Website\\obj\\",
+      "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.Website\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -9062,11 +9062,11 @@
         "net6.0": {
           "targetAlias": "net6",
           "projectReferences": {
-            "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj": {
-              "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj"
+            "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj": {
+              "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj"
             },
-            "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj": {
-              "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Messages\\Auto.Messages.csproj"
+            "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj": {
+              "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj"
             }
           }
         }

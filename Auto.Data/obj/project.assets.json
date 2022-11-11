@@ -8196,11 +8196,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj",
+      "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj",
       "projectName": "Auto.Data",
-      "projectPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj",
+      "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj",
       "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-      "outputPath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\obj\\",
+      "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "JQUook+27pEnKGVUlEhlBNHt6qYYuJzqgr6G+5p8ioICLkXezINUrGzbmoIYEGtWvvrbSRN9qR50j5wMwnFFaQ==",
+  "dgSpecHash": "3jM6ryBrEIoQnByxCHi5qEOSaN40jUkad9q2mo6eSLSlCnYVDd20OIvA52At6iQn7YCt9Eqyj7iInRf3jfSkfQ==",
   "success": true,
-  "projectFilePath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.Data\\Auto.Data.csproj",
+  "projectFilePath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demsk\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\demsk\\.nuget\\packages\\easynetq\\8.0.0-alpha6\\easynetq.8.0.0-alpha6.nupkg.sha512",
