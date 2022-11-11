@@ -11,6 +11,7 @@
           "Auto.Data": "1.0.0",
           "Auto.Messages": "1.0.0",
           "EasyNetQ": "8.0.0-alpha6",
+          "EasyNetQ.Serialization.NewtonsoftJson": "8.0.0-alpha6",
           "GraphQL": "7.1.1",
           "GraphQL.MicrosoftDI": "7.1.1",
           "GraphQL.NewtonsoftJson": "7.1.1",
@@ -56,6 +57,18 @@
         },
         "runtime": {
           "lib/net6.0/EasyNetQ.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.0.0"
+          }
+        }
+      },
+      "EasyNetQ.Serialization.NewtonsoftJson/8.0.0-alpha6": {
+        "dependencies": {
+          "EasyNetQ": "8.0.0-alpha6",
+          "Newtonsoft.Json": "13.0.1"
+        },
+        "runtime": {
+          "lib/net6.0/EasyNetQ.Serialization.NewtonsoftJson.dll": {
             "assemblyVersion": "8.0.0.0",
             "fileVersion": "8.0.0.0"
           }
@@ -1696,6 +1709,7 @@
       "Auto.Data/1.0.0": {
         "dependencies": {
           "EasyNetQ": "8.0.0-alpha6",
+          "EasyNetQ.Serialization.NewtonsoftJson": "8.0.0-alpha6",
           "Microsoft.EntityFrameworkCore.Proxies": "5.0.6",
           "Microsoft.EntityFrameworkCore.SqlServer": "5.0.6",
           "Microsoft.Extensions.Configuration": "7.0.0-rc.2.22472.3",
@@ -1711,6 +1725,7 @@
       "Auto.Messages/1.0.0": {
         "dependencies": {
           "EasyNetQ": "8.0.0-alpha6",
+          "EasyNetQ.Serialization.NewtonsoftJson": "8.0.0-alpha6",
           "Microsoft.Extensions.Configuration": "7.0.0-rc.2.22472.3",
           "Microsoft.Extensions.Configuration.EnvironmentVariables": "7.0.0-rc.2.22472.3",
           "Microsoft.Extensions.Configuration.FileExtensions": "7.0.0-rc.2.22472.3",
@@ -1741,6 +1756,13 @@
       "sha512": "sha512-31y9Numv1coe5SMdjDLmRKUIzn90INmWMA5TRTQZqMQh6+xOdUbwX4nHqihJRJcTKI8lXD4RSX14jjqz203qeA==",
       "path": "easynetq/8.0.0-alpha6",
       "hashPath": "easynetq.8.0.0-alpha6.nupkg.sha512"
+    },
+    "EasyNetQ.Serialization.NewtonsoftJson/8.0.0-alpha6": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tYAY57k7LdXnVQSDW4ZNW6gAIq8Vva+otAI1SWYAyZsYz6EtBX2du4rzlFKCzCBwPFal1nNj96h3/vS4pv/+PA==",
+      "path": "easynetq.serialization.newtonsoftjson/8.0.0-alpha6",
+      "hashPath": "easynetq.serialization.newtonsoftjson.8.0.0-alpha6.nupkg.sha512"
     },
     "GraphiQL/2.0.0": {
       "type": "package",

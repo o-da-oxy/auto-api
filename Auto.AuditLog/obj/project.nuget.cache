@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "aDPdejhlWcf8a5UjuPBkR3iZWUMx848GTseB4VmsO4dCwPnLlJz6Ws+wH0Hns6+M6iQAJMk5nC4tmspaNpRbRw==",
+  "success": true,
+  "projectFilePath": "E:\\DOCUMENTS\\SO_progr\\Auto\\Auto.AuditLog\\Auto.AuditLog.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\demsk\\.nuget\\packages\\easynetq\\8.0.0-alpha6\\easynetq.8.0.0-alpha6.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\easynetq.serialization.newtonsoftjson\\8.0.0-alpha6\\easynetq.serialization.newtonsoftjson.8.0.0-alpha6.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.configuration\\7.0.0-rc.2.22472.3\\microsoft.extensions.configuration.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.configuration.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.configuration.environmentvariables\\7.0.0-rc.2.22472.3\\microsoft.extensions.configuration.environmentvariables.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.configuration.fileextensions\\7.0.0-rc.2.22472.3\\microsoft.extensions.configuration.fileextensions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.configuration.json\\7.0.0-rc.2.22472.3\\microsoft.extensions.configuration.json.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\7.0.0-rc.2.22472.3\\microsoft.extensions.fileproviders.abstractions.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.fileproviders.physical\\7.0.0-rc.2.22472.3\\microsoft.extensions.fileproviders.physical.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\7.0.0-rc.2.22472.3\\microsoft.extensions.filesystemglobbing.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0-rc.2.22472.3\\microsoft.extensions.primitives.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\rabbitmq.client\\6.4.0\\rabbitmq.client.6.4.0.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\system.text.encodings.web\\7.0.0-rc.2.22472.3\\system.text.encodings.web.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\system.text.json\\7.0.0-rc.2.22472.3\\system.text.json.7.0.0-rc.2.22472.3.nupkg.sha512",
+    "C:\\Users\\demsk\\.nuget\\packages\\system.threading.channels\\4.7.1\\system.threading.channels.4.7.1.nupkg.sha512"
+  ],
+  "logs": []
+}

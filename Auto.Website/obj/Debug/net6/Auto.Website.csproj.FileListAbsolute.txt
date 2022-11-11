@@ -174,3 +174,4 @@ E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\System.Text.Json.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\runtimes\browser\lib\net6.0\System.Text.Encodings.Web.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Auto.Messages.dll
 E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\Auto.Messages.pdb
+E:\DOCUMENTS\SO_progr\Auto\Auto.Website\bin\Debug\net6\EasyNetQ.Serialization.NewtonsoftJson.dll

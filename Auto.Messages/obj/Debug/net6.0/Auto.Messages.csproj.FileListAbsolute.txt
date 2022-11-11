@@ -1,0 +1,12 @@
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\bin\Debug\net6.0\Auto.Messages.deps.json
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\bin\Debug\net6.0\Auto.Messages.dll
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\bin\Debug\net6.0\Auto.Messages.pdb
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.csproj.AssemblyReference.cache
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.GeneratedMSBuildEditorConfig.editorconfig
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.AssemblyInfoInputs.cache
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.AssemblyInfo.cs
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.csproj.CoreCompileInputs.cache
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.dll
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\refint\Auto.Messages.dll
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\Auto.Messages.pdb
+E:\DOCUMENTS\SO_progr\Auto\Auto.Messages\obj\Debug\net6.0\ref\Auto.Messages.dll
