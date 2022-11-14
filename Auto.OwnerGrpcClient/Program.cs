@@ -11,15 +11,7 @@ while (true)
     {
         Registration = registration
     };
-    try
-    {
-        var reply = grpcClient.GetOwner(request);
-        Console.WriteLine($"Owner:  {reply.FirstName}  {reply.LastName}  {reply.PhoneNumber}");
-    }
-    catch (Exception e)
-    {
-        Console.WriteLine($"Error!!! {e.Message}");
-    }
-   
+    var reply = grpcClient.GetOwner(request);
+    Console.WriteLine($"Owner:  {reply.FirstName}  {reply.LastName}  {reply.PhoneNumber}");
     Console.WriteLine("Input registration: ");
 }

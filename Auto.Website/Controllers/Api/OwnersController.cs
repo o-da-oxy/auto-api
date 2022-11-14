@@ -92,6 +92,7 @@ public class OwnersController : ControllerBase
             FirstName = dto.FirstName,
             LastName = dto.LastName,
             PhoneNumber = dto.PhoneNumber,
+            Registration = dto.Registration,
             OwnersVehicle = ownersVehicle
         };
         db.CreateOwner(owner);

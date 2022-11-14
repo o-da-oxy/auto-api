@@ -108,7 +108,7 @@ namespace Auto.Data {
                     Registration = tokens[3]
                 };
                 //dictionary[key] = value (for GetValueOrDefault() in FindOwner())
-                owners[owner.PhoneNumber] = owner;
+                owners[owner.Registration] = owner;
             }
             logger.LogInformation($"Loaded {owners.Count} owners from {filePath}");
         }
