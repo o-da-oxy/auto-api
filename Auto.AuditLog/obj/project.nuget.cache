@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gWDqjcywyWLd67+X/ckR09I9bSEW/tHv/bXx0HWsDHxvKxMkMoVyh36XcpgTXUvk9ULxXeZ+I2VyHixVLxKGHg==",
+  "dgSpecHash": "uGCX8nisghfCqJ8nFC9inU210Wtr8gs+JQPfFLXxYb1jqylw0A2X+asQfM1Isc5HPKAf5Epg+vfjBsTYYVrBtw==",
   "success": true,
-  "projectFilePath": "E:\\DOCUMENTS\\auto_project\\Auto.AuditLog\\Auto.AuditLog.csproj",
+  "projectFilePath": "E:\\DOCUMENTS\\auto-api\\Auto.AuditLog\\Auto.AuditLog.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demsk\\.nuget\\packages\\easynetq\\8.0.0-alpha6\\easynetq.8.0.0-alpha6.nupkg.sha512",
     "C:\\Users\\demsk\\.nuget\\packages\\easynetq.serialization.newtonsoftjson\\8.0.0-alpha6\\easynetq.serialization.newtonsoftjson.8.0.0-alpha6.nupkg.sha512",

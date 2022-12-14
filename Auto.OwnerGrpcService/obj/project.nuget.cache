@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "j2TdPaHGB20Vxz77HMwbiQDa7NnRWbhFY5vEPG6iFQe1SyakcvuBRQKZuyNGYohUepUgMKkzckprccRhM3dr1g==",
+  "dgSpecHash": "21jiYleUCcS31yJxbCrrqYnDp8fE2C2U98tlMK5BUZ61E/Wr6PJk2ssbAr2ucIkEZ5IYyQCnCcnyZWT6GybZNg==",
   "success": true,
-  "projectFilePath": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcService\\Auto.OwnerGrpcService.csproj",
+  "projectFilePath": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcService\\Auto.OwnerGrpcService.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demsk\\.nuget\\packages\\castle.core\\4.4.1\\castle.core.4.4.1.nupkg.sha512",
     "C:\\Users\\demsk\\.nuget\\packages\\easynetq\\8.0.0-alpha6\\easynetq.8.0.0-alpha6.nupkg.sha512",

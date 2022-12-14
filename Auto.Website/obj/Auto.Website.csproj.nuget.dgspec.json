@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DOCUMENTS\\auto_project\\Auto.Website\\Auto.Website.csproj": {}
+    "E:\\DOCUMENTS\\auto-api\\Auto.Website\\Auto.Website.csproj": {}
   },
   "projects": {
-    "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj": {
+    "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj",
+        "projectUniqueName": "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj",
         "projectName": "Auto.Data",
-        "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj",
+        "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj",
         "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-        "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\obj\\",
+        "outputPath": "E:\\DOCUMENTS\\auto-api\\Auto.Data\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -100,14 +100,14 @@
         }
       }
     },
-    "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj": {
+    "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj",
+        "projectUniqueName": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj",
         "projectName": "Auto.Messages",
-        "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj",
+        "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj",
         "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-        "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\obj\\",
+        "outputPath": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -178,14 +178,14 @@
         }
       }
     },
-    "E:\\DOCUMENTS\\auto_project\\Auto.Website\\Auto.Website.csproj": {
+    "E:\\DOCUMENTS\\auto-api\\Auto.Website\\Auto.Website.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.Website\\Auto.Website.csproj",
+        "projectUniqueName": "E:\\DOCUMENTS\\auto-api\\Auto.Website\\Auto.Website.csproj",
         "projectName": "Auto.Website",
-        "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Website\\Auto.Website.csproj",
+        "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Website\\Auto.Website.csproj",
         "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-        "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.Website\\obj\\",
+        "outputPath": "E:\\DOCUMENTS\\auto-api\\Auto.Website\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -200,11 +200,11 @@
           "net6.0": {
             "targetAlias": "net6",
             "projectReferences": {
-              "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj": {
-                "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj"
+              "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj": {
+                "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj"
               },
-              "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj": {
-                "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj"
+              "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj": {
+                "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj"
               }
             }
           }
@@ -254,6 +254,18 @@
             "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "Microsoft.AspNetCore.SignalR": {
+              "target": "Package",
+              "version": "[1.1.0, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Common": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.AspNetCore.SignalR.Core": {
+              "target": "Package",
+              "version": "[1.1.0, )"
             },
             "Microsoft.Extensions.Configuration": {
               "target": "Package",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj": {}
+    "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj": {}
   },
   "projects": {
-    "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj": {
+    "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj",
+        "projectUniqueName": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj",
         "projectName": "Auto.OwnerGrpcClient",
-        "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj",
+        "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj",
         "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-        "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcClient\\obj\\",
+        "outputPath": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcClient\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"

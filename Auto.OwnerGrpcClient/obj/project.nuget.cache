@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Ts2OKQZ2WfZTE0BTvO4kgBnHlFYHTPSbFxq8WDCd3dpy3i07iJAnJmyYPvWZzuV7u7jHJ/yVel+xzcRFAJpUjQ==",
+  "dgSpecHash": "MtQGspGHUBSUbG1iU7ve8eQFYczbh+64tPo42chF+/jStBU8VTlUvLuwrudBxgrkKJfpGaaRyr5seow8hu97JQ==",
   "success": true,
-  "projectFilePath": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj",
+  "projectFilePath": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcClient\\Auto.OwnerGrpcClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demsk\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\demsk\\.nuget\\packages\\grpc.core.api\\2.50.0-pre1\\grpc.core.api.2.50.0-pre1.nupkg.sha512",

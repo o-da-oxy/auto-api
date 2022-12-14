@@ -8,6 +8,7 @@ using System;
 using System.IO;
 using System.Reflection;
 using Auto.Website.GraphQL.Schemas;
+using Auto.WebSite.Hubs;
 using EasyNetQ;
 using GraphQL;
 using GraphQL.Types;
@@ -25,7 +26,8 @@ namespace Auto.Website {
         public void ConfigureServices(IServiceCollection services) {
             services.AddRouting(options => options.LowercaseUrls = true);
             services.AddControllersWithViews().AddNewtonsoftJson();
-            services.AddSingleton<IAutoDatabase, AutoCsvFileDatabase>(); //
+            services.AddSingleton<IAutoDatabase, AutoCsvFileDatabase>();
+            services.AddSignalR();
 
             services.AddSwaggerGen(
                 config => {
@@ -66,6 +68,7 @@ namespace Auto.Website {
             app.UseGraphQLGraphiQL("/graphiql");
 
             app.UseEndpoints(endpoints => {
+                endpoints.MapHub<AutoHub>("/hub");
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

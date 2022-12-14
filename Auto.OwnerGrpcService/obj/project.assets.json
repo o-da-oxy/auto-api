@@ -8517,11 +8517,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcService\\Auto.OwnerGrpcService.csproj",
+      "projectUniqueName": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcService\\Auto.OwnerGrpcService.csproj",
       "projectName": "Auto.OwnerGrpcService",
-      "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcService\\Auto.OwnerGrpcService.csproj",
+      "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcService\\Auto.OwnerGrpcService.csproj",
       "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-      "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.OwnerGrpcService\\obj\\",
+      "outputPath": "E:\\DOCUMENTS\\auto-api\\Auto.OwnerGrpcService\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8536,8 +8536,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj": {
-              "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Data\\Auto.Data.csproj"
+            "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj": {
+              "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Data\\Auto.Data.csproj"
             }
           }
         }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj": {}
+    "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj": {}
   },
   "projects": {
-    "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj": {
+    "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj",
+        "projectUniqueName": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj",
         "projectName": "Auto.Messages",
-        "projectPath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj",
+        "projectPath": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj",
         "packagesPath": "C:\\Users\\demsk\\.nuget\\packages\\",
-        "outputPath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\obj\\",
+        "outputPath": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\demsk\\AppData\\Roaming\\NuGet\\NuGet.Config"

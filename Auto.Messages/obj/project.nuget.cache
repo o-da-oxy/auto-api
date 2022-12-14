@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "VfS/tEdC7Nt5i4PJWjlYGkphtClDOwIAi6Os/zfpsz5z1ATikVLBVjDhm4YTo0JIPID9tRdWzZY7nF72CSobhg==",
+  "dgSpecHash": "NVgvyC3BKamXLHOpg/ywMiY8YVKwuj2MEke2I4ki0yhhw/LRvK3zhs5nfcrRqWHeJrM9riNVJ9EnjJuqUfBOdQ==",
   "success": true,
-  "projectFilePath": "E:\\DOCUMENTS\\auto_project\\Auto.Messages\\Auto.Messages.csproj",
+  "projectFilePath": "E:\\DOCUMENTS\\auto-api\\Auto.Messages\\Auto.Messages.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\demsk\\.nuget\\packages\\easynetq\\8.0.0-alpha6\\easynetq.8.0.0-alpha6.nupkg.sha512",
     "C:\\Users\\demsk\\.nuget\\packages\\easynetq.serialization.newtonsoftjson\\8.0.0-alpha6\\easynetq.serialization.newtonsoftjson.8.0.0-alpha6.nupkg.sha512",
